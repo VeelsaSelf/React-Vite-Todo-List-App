@@ -1,0 +1,24 @@
+.note{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    color: white;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.note > h3{
+    margin: 0;
+    padding: 0;
+}
+
+.note > button{
+    color: #D80032;
+    background-color: #F78CA2;
+    padding: 10px 40px;
+    border-radius: 9px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
